@@ -1,0 +1,1377 @@
+
+- type: icmp
+  id: VBN_ABUJA_WUSE_PRI_S_2-10.35.10.114
+  name: VBN_ABUJA_WUSE_PRI_S_2-10.35.10.114
+  schedule: '@every 60s'
+  hosts: [10.35.10.114]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KADUNA_UNGWAN-SANUSI_PRI_S_1-10.35.75.34
+  name: VBN_KADUNA_UNGWAN-SANUSI_PRI_S_1-10.35.75.34
+  schedule: '@every 60s'
+  hosts: [10.35.75.34]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KADUNA_MAKERAI_SEC_S_1-10.35.75.35
+  name: VBN_KADUNA_MAKERAI_SEC_S_1-10.35.75.35
+  schedule: '@every 60s'
+  hosts: [10.35.75.35]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KADUNA_KACHIA-ROAD_SEC_S_1-10.35.12.106
+  name: VBN_KADUNA_KACHIA-ROAD_SEC_S_1-10.35.12.106
+  schedule: '@every 60s'
+  hosts: [10.35.12.106]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KADUNA_UNGWAN-RIMI_SEC_S_1-10.35.12.109
+  name: VBN_KADUNA_UNGWAN-RIMI_SEC_S_1-10.35.12.109
+  schedule: '@every 60s'
+  hosts: [10.35.12.109]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_TRANS-AMADI_PRI_S_3-10.35.12.10
+  name: VBN_PHC_TRANS-AMADI_PRI_S_3-10.35.12.10
+  schedule: '@every 60s'
+  hosts: [10.35.12.10]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_KAN-RADIO_PRI_S_1-10.35.12.130
+  name: VBN_KANO_KAN-RADIO_PRI_S_1-10.35.12.130
+  schedule: '@every 60s'
+  hosts: [10.35.12.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_GWARAN-QUARTERS_SEC_S_1-10.35.12.135
+  name: VBN_KANO_GWARAN-QUARTERS_SEC_S_1-10.35.12.135
+  schedule: '@every 60s'
+  hosts: [10.35.12.135]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_KAWON-QUARTERS_SEC_S_1-10.35.12.136
+  name: VBN_KANO_KAWON-QUARTERS_SEC_S_1-10.35.12.136
+  schedule: '@every 60s'
+  hosts: [10.35.12.136]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_KAN-RADIO_PRI_S_2-10.35.12.138
+  name: VBN_KANO_KAN-RADIO_PRI_S_2-10.35.12.138
+  schedule: '@every 60s'
+  hosts: [10.35.12.138]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_SABON-GARI_SEC_S_1-10.35.12.139
+  name: VBN_KANO_SABON-GARI_SEC_S_1-10.35.12.139
+  schedule: '@every 60s'
+  hosts: [10.35.12.139]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_TRANS-AMADI_PRI_S_2-10.35.12.8
+  name: VBN_PHC_TRANS-AMADI_PRI_S_2-10.35.12.8
+  schedule: '@every 60s'
+  hosts: [10.35.12.8]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_WIMPEY_PRI_S_1-10.35.12.18
+  name: VBN_PHC_WIMPEY_PRI_S_1-10.35.12.18
+  schedule: '@every 60s'
+  hosts: [10.35.12.18]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_OZUOBA_SEC_S_1-10.35.12.19
+  name: VBN_PHC_OZUOBA_SEC_S_1-10.35.12.19
+  schedule: '@every 60s'
+  hosts: [10.35.12.19]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABA_OVER-RAIL_PRI_S_1-10.35.12.194
+  name: VBN_ABA_OVER-RAIL_PRI_S_1-10.35.12.194
+  schedule: '@every 60s'
+  hosts: [10.35.12.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_TRANS-AMADI_PRI_S_1-10.35.12.4
+  name: VBN_PHC_TRANS-AMADI_PRI_S_1-10.35.12.4
+  schedule: '@every 60s'
+  hosts: [10.35.12.4]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_BENIN_IWEGIE_PRI_S_1-10.35.12.202
+  name: VBN_BENIN_IWEGIE_PRI_S_1-10.35.12.202
+  schedule: '@every 60s'
+  hosts: [10.35.12.202]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_BENIN_UGBOWO_SEC_S_1-10.35.12.204
+  name: VBN_BENIN_UGBOWO_SEC_S_1-10.35.12.204
+  schedule: '@every 60s'
+  hosts: [10.35.12.204]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_BENIN_AGBOR-ROAD_SEC_S_1-10.35.12.210
+  name: VBN_BENIN_AGBOR-ROAD_SEC_S_1-10.35.12.210
+  schedule: '@every 60s'
+  hosts: [10.35.12.210]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ENUGU_THINKERS-CORNER_SEC_S_1-10.35.12.219
+  name: VBN_ENUGU_THINKERS-CORNER_SEC_S_1-10.35.12.219
+  schedule: '@every 60s'
+  hosts: [10.35.12.219]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ENUGU_OGUI-ROAD_SEC_S_1-10.35.12.220
+  name: VBN_ENUGU_OGUI-ROAD_SEC_S_1-10.35.12.220
+  schedule: '@every 60s'
+  hosts: [10.35.12.220]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ONITSHA_ST-CHARLES-BORROMEO_PRI_S_1-10.35.12.242
+  name: VBN_ONITSHA_ST-CHARLES-BORROMEO_PRI_S_1-10.35.12.242
+  schedule: '@every 60s'
+  hosts: [10.35.12.242]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ASABA_OBI-UGBE-ROAD_SEC_S_1-10.35.12.244
+  name: VBN_ASABA_OBI-UGBE-ROAD_SEC_S_1-10.35.12.244
+  schedule: '@every 60s'
+  hosts: [10.35.12.244]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_WUSE_PRI_S_1-10.35.12.34
+  name: VBN_ABUJA_WUSE_PRI_S_1-10.35.12.34
+  schedule: '@every 60s'
+  hosts: [10.35.12.34]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_MAITAMAH_PRI_S_1-10.35.12.59
+  name: VBN_ABUJA_MAITAMAH_PRI_S_1-10.35.12.59
+  schedule: '@every 60s'
+  hosts: [10.35.12.59]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_ASOKORO_SEC_S_1-10.35.12.51
+  name: VBN_ABUJA_ASOKORO_SEC_S_1-10.35.12.51
+  schedule: '@every 60s'
+  hosts: [10.35.12.51]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_ASOKORO_SEC_S_2-10.35.12.52
+  name: VBN_ABUJA_ASOKORO_SEC_S_2-10.35.12.52
+  schedule: '@every 60s'
+  hosts: [10.35.12.52]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_SHERATON-WUSE_SEC_S_1-10.35.12.53
+  name: VBN_ABUJA_SHERATON-WUSE_SEC_S_1-10.35.12.53
+  schedule: '@every 60s'
+  hosts: [10.35.12.53]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_HASSAN-MUSA-ASOKORO_SEC_S_1-10.35.12.56
+  name: VBN_ABUJA_HASSAN-MUSA-ASOKORO_SEC_S_1-10.35.12.56
+  schedule: '@every 60s'
+  hosts: [10.35.12.56]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_MAITAMAH_PRI_S_2-10.35.12.62
+  name: VBN_ABUJA_MAITAMAH_PRI_S_2-10.35.12.62
+  schedule: '@every 60s'
+  hosts: [10.35.12.62]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_DUGBE_PRI_S_1-10.35.12.66
+  name: VBN_IBADAN_DUGBE_PRI_S_1-10.35.12.66
+  schedule: '@every 60s'
+  hosts: [10.35.12.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_ODO-ONA_SEC_S_1-10.35.12.67
+  name: VBN_IBADAN_ODO-ONA_SEC_S_1-10.35.12.67
+  schedule: '@every 60s'
+  hosts: [10.35.12.67]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_IWO-ROAD_SEC_S_1-10.35.12.68
+  name: VBN_IBADAN_IWO-ROAD_SEC_S_1-10.35.12.68
+  schedule: '@every 60s'
+  hosts: [10.35.12.68]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_DUGBE_PRI_S_2-10.35.12.69
+  name: VBN_IBADAN_DUGBE_PRI_S_2-10.35.12.69
+  schedule: '@every 60s'
+  hosts: [10.35.12.69]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_ELEME-JUNCTION_SEC_S_1-10.35.12.7
+  name: VBN_PHC_ELEME-JUNCTION_SEC_S_1-10.35.12.7
+  schedule: '@every 60s'
+  hosts: [10.35.12.7]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_ONNE_SEC_S_1-10.35.12.9
+  name: VBN_PHC_ONNE_SEC_S_1-10.35.12.9
+  schedule: '@every 60s'
+  hosts: [10.35.12.9]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_WARRI_UGBORI_PRI_S_1-10.35.16.2
+  name: VBN_WARRI_UGBORI_PRI_S_1-10.35.16.2
+  schedule: '@every 60s'
+  hosts: [10.35.16.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ILORIN_EMIR-PALACE_PRI_S_1-10.35.17.130
+  name: VBN_ILORIN_EMIR-PALACE_PRI_S_1-10.35.17.130
+  schedule: '@every 60s'
+  hosts: [10.35.17.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ILORIN_TIPPER_SEC_S_1-10.35.17.131
+  name: VBN_ILORIN_TIPPER_SEC_S_1-10.35.17.131
+  schedule: '@every 60s'
+  hosts: [10.35.17.131]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_OWERRI_CIVC-CENTERPRI_PRI_S_1-10.35.17.138
+  name: VBN_OWERRI_CIVC-CENTERPRI_PRI_S_1-10.35.17.138
+  schedule: '@every 60s'
+  hosts: [10.35.17.138]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_JOS_AIRFORCE_SEC_S_1-10.35.17.155
+  name: VBN_JOS_AIRFORCE_SEC_S_1-10.35.17.155
+  schedule: '@every 60s'
+  hosts: [10.35.17.155]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_JOS_AKALI_SEC_S_1-10.35.17.157
+  name: VBN_JOS_AKALI_SEC_S_1-10.35.17.157
+  schedule: '@every 60s'
+  hosts: [10.35.17.157]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_MAKURDI_WURUKUN-MARKET_PRI_S_1-10.35.17.170
+  name: VBN_MAKURDI_WURUKUN-MARKET_PRI_S_1-10.35.17.170
+  schedule: '@every 60s'
+  hosts: [10.35.17.170]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_MINNA_BOSS-ROAD_SEC_S_1-10.35.17.186
+  name: VBN_MINNA_BOSS-ROAD_SEC_S_1-10.35.17.186
+  schedule: '@every 60s'
+  hosts: [10.35.17.186]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_BOOKSHOP_PRI_S_1-10.35.17.24
+  name: VBN_LAGOS_BOOKSHOP_PRI_S_1-10.35.17.24
+  schedule: '@every 60s'
+  hosts: [10.35.17.24]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_BOOKSHOP_PRI_S_2-10.35.17.26
+  name: VBN_LAGOS_BOOKSHOP_PRI_S_2-10.35.17.26
+  schedule: '@every 60s'
+  hosts: [10.35.17.26]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_UYO_ETOK-AKPAN_PRI_S_1-10.35.17.42
+  name: VBN_UYO_ETOK-AKPAN_PRI_S_1-10.35.17.42
+  schedule: '@every 60s'
+  hosts: [10.35.17.42]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABEOKUTA_EKO-SURU_PRI_S_1-10.35.17.51
+  name: VBN_ABEOKUTA_EKO-SURU_PRI_S_1-10.35.17.51
+  schedule: '@every 60s'
+  hosts: [10.35.17.51]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_CALABAR_HOUSING-ESTATE_PRI_S_1-10.35.17.74
+  name: VBN_CALABAR_HOUSING-ESTATE_PRI_S_1-10.35.17.74
+  schedule: '@every 60s'
+  hosts: [10.35.17.74]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_SOKOTO_UNGUWAR-ROCCO_PRI_S_1-10.35.18.154
+  name: VBN_SOKOTO_UNGUWAR-ROCCO_PRI_S_1-10.35.18.154
+  schedule: '@every 60s'
+  hosts: [10.35.18.154]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LOKOJA_RADIO_PRI_S_1-10.35.18.2
+  name: VBN_LOKOJA_RADIO_PRI_S_1-10.35.18.2
+  schedule: '@every 60s'
+  hosts: [10.35.18.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_YENAGOA_B-DIVISION_PRI_S_1-10.35.18.34
+  name: VBN_YENAGOA_B-DIVISION_PRI_S_1-10.35.18.34
+  schedule: '@every 60s'
+  hosts: [10.35.18.34]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_AKURE_OJA-OSHODI_PRI_S_1-10.35.18.66
+  name: VBN_AKURE_OJA-OSHODI_PRI_S_1-10.35.18.66
+  schedule: '@every 60s'
+  hosts: [10.35.18.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_WIMPEY_PRI_S_2-10.35.20.170
+  name: VBN_PHC_WIMPEY_PRI_S_2-10.35.20.170
+  schedule: '@every 60s'
+  hosts: [10.35.20.170]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_YOLA_ZANGO-WARD_PRI_S_1-10.35.22.114
+  name: VBN_YOLA_ZANGO-WARD_PRI_S_1-10.35.22.114
+  schedule: '@every 60s'
+  hosts: [10.35.22.114]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABAKALIKI_JEMENI_PRI_S_1-10.35.22.130
+  name: VBN_ABAKALIKI_JEMENI_PRI_S_1-10.35.22.130
+  schedule: '@every 60s'
+  hosts: [10.35.22.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_GOMBE_MALLAM-INNA_PRI_S_1-10.35.22.82
+  name: VBN_GOMBE_MALLAM-INNA_PRI_S_1-10.35.22.82
+  schedule: '@every 60s'
+  hosts: [10.35.22.82]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KATSINA_MULKUDI_PRI_S_1-10.35.22.98
+  name: VBN_KATSINA_MULKUDI_PRI_S_1-10.35.22.98
+  schedule: '@every 60s'
+  hosts: [10.35.22.98]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ALAGBADO_SEC_S_1-10.35.36.131
+  name: VBN_LAGOS_ALAGBADO_SEC_S_1-10.35.36.131
+  schedule: '@every 60s'
+  hosts: [10.35.36.131]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IPAJA_SEC_S_1-10.35.36.134
+  name: VBN_LAGOS_IPAJA_SEC_S_1-10.35.36.134
+  schedule: '@every 60s'
+  hosts: [10.35.36.134]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_MARYLAND_SEC_S_1-10.35.36.150
+  name: VBN_LAGOS_MARYLAND_SEC_S_1-10.35.36.150
+  schedule: '@every 60s'
+  hosts: [10.35.36.150]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IKOTUN-IDIMU_SEC_S_1-10.35.36.153
+  name: VBN_LAGOS_IKOTUN-IDIMU_SEC_S_1-10.35.36.153
+  schedule: '@every 60s'
+  hosts: [10.35.36.153]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_TRADEFAIR_SEC_S_1-10.35.36.197
+  name: VBN_LAGOS_TRADEFAIR_SEC_S_1-10.35.36.197
+  schedule: '@every 60s'
+  hosts: [10.35.36.197]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IKOTA_SEC_S_1-10.35.40.195
+  name: VBN_LAGOS_IKOTA_SEC_S_1-10.35.40.195
+  schedule: '@every 60s'
+  hosts: [10.35.40.195]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IGBO-EFON_SEC_S_1-10.35.37.54
+  name: VBN_LAGOS_IGBO-EFON_SEC_S_1-10.35.37.54
+  schedule: '@every 60s'
+  hosts: [10.35.37.54]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_SHASHA_SEC_S_1-10.35.38.138
+  name: VBN_LAGOS_SHASHA_SEC_S_1-10.35.38.138
+  schedule: '@every 60s'
+  hosts: [10.35.38.138]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ZENON_PRI_S_2-10.35.40.114
+  name: VBN_LAGOS_ZENON_PRI_S_2-10.35.40.114
+  schedule: '@every 60s'
+  hosts: [10.35.40.114]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ZENON_PRI_S_1-10.35.40.116
+  name: VBN_LAGOS_ZENON_PRI_S_1-10.35.40.116
+  schedule: '@every 60s'
+  hosts: [10.35.40.116]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ZENON_ZFS_S_1_NN1-10.35.40.117
+  name: VBN_LAGOS_ZENON_ZFS_S_1_NN1-10.35.40.117
+  schedule: '@every 60s'
+  hosts: [10.35.40.117]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_SURULERE_SEC_S_2-10.35.40.146
+  name: VBN_LAGOS_SURULERE_SEC_S_2-10.35.40.146
+  schedule: '@every 60s'
+  hosts: [10.35.40.146]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_SURULERE_SEC_S_1-10.35.40.148
+  name: VBN_LAGOS_SURULERE_SEC_S_1-10.35.40.148
+  schedule: '@every 60s'
+  hosts: [10.35.40.148]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_GERRARD_SEC_S_1-10.35.40.162
+  name: VBN_LAGOS_GERRARD_SEC_S_1-10.35.40.162
+  schedule: '@every 60s'
+  hosts: [10.35.40.162]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_GERRARD_SEC_S_2-10.35.40.164
+  name: VBN_LAGOS_GERRARD_SEC_S_2-10.35.40.164
+  schedule: '@every 60s'
+  hosts: [10.35.40.164]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ILUPEJU_SEC_S_2-10.35.40.178
+  name: VBN_LAGOS_ILUPEJU_SEC_S_2-10.35.40.178
+  schedule: '@every 60s'
+  hosts: [10.35.40.178]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ILUPEJU_SEC_S_1-10.35.40.180
+  name: VBN_LAGOS_ILUPEJU_SEC_S_1-10.35.40.180
+  schedule: '@every 60s'
+  hosts: [10.35.40.180]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_LEKKI_SEC_S_1-10.35.40.194
+  name: VBN_LAGOS_LEKKI_SEC_S_1-10.35.40.194
+  schedule: '@every 60s'
+  hosts: [10.35.40.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_LEKKI_SEC_S_2-10.35.40.196
+  name: VBN_LAGOS_LEKKI_SEC_S_2-10.35.40.196
+  schedule: '@every 60s'
+  hosts: [10.35.40.196]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_APAPA_SEC_S_1-10.35.40.210
+  name: VBN_LAGOS_APAPA_SEC_S_1-10.35.40.210
+  schedule: '@every 60s'
+  hosts: [10.35.40.210]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_APAPA_SEC_S_2-10.35.40.212
+  name: VBN_LAGOS_APAPA_SEC_S_2-10.35.40.212
+  schedule: '@every 60s'
+  hosts: [10.35.40.212]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_AJAH_PRI_S_1-10.35.40.226
+  name: VBN_LAGOS_AJAH_PRI_S_1-10.35.40.226
+  schedule: '@every 60s'
+  hosts: [10.35.40.226]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_FESTAC_SEC_S_1-10.35.40.242
+  name: VBN_LAGOS_FESTAC_SEC_S_1-10.35.40.242
+  schedule: '@every 60s'
+  hosts: [10.35.40.242]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_OTTA_IPAMESAN_SEC_S_1-10.35.42.146
+  name: VBN_OTTA_IPAMESAN_SEC_S_1-10.35.42.146
+  schedule: '@every 60s'
+  hosts: [10.35.42.146]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IKORODU_SEC_S_1-10.35.42.18
+  name: VBN_LAGOS_IKORODU_SEC_S_1-10.35.42.18
+  schedule: '@every 60s'
+  hosts: [10.35.42.18]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_AGEGE_SEC_S_1-10.35.42.2
+  name: VBN_LAGOS_AGEGE_SEC_S_1-10.35.42.2
+  schedule: '@every 60s'
+  hosts: [10.35.42.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_OJO_SEC_S_1-10.35.42.34
+  name: VBN_LAGOS_OJO_SEC_S_1-10.35.42.34
+  schedule: '@every 60s'
+  hosts: [10.35.42.34]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_AGBARA_SEC_S_1-10.35.42.50
+  name: VBN_LAGOS_AGBARA_SEC_S_1-10.35.42.50
+  schedule: '@every 60s'
+  hosts: [10.35.42.50]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_RACK-CENTRE_PRI_S_1-10.35.42.66
+  name: VBN_LAGOS_RACK-CENTRE_PRI_S_1-10.35.42.66
+  schedule: '@every 60s'
+  hosts: [10.35.42.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_RACK-CENTRE_PRI_S_2-10.35.42.68
+  name: VBN_LAGOS_RACK-CENTRE_PRI_S_2-10.35.42.68
+  schedule: '@every 60s'
+  hosts: [10.35.42.68]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_RACK-CENTRE_PRI_S_3-10.35.42.69
+  name: VBN_LAGOS_RACK-CENTRE_PRI_S_3-10.35.42.69
+  schedule: '@every 60s'
+  hosts: [10.35.42.69]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_RACK-CENTRE_PRI_S_4-10.35.42.70
+  name: VBN_LAGOS_RACK-CENTRE_PRI_S_4-10.35.42.70
+  schedule: '@every 60s'
+  hosts: [10.35.42.70]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_BAUCHI_NASSARAWA-RD_PRI_S_1-10.35.44.71
+  name: VBN_BAUCHI_NASSARAWA-RD_PRI_S_1-10.35.44.71
+  schedule: '@every 60s'
+  hosts: [10.35.44.71]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_OSHOGBO_IKIRUN-RASCO_PRI_S_1-10.35.44.82
+  name: VBN_OSHOGBO_IKIRUN-RASCO_PRI_S_1-10.35.44.82
+  schedule: '@every 60s'
+  hosts: [10.35.44.82]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_BARNABAS-CHURCH-IGWURUTA_SEC_S_1-10.35.45.148
+  name: VBN_PHC_BARNABAS-CHURCH-IGWURUTA_SEC_S_1-10.35.45.148
+  schedule: '@every 60s'
+  hosts: [10.35.45.148]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_OHIA-ISIAPEDE-RUMUADAOLU_SEC_S_1-10.35.45.151
+  name: VBN_PHC_OHIA-ISIAPEDE-RUMUADAOLU_SEC_S_1-10.35.45.151
+  schedule: '@every 60s'
+  hosts: [10.35.45.151]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_ELEKHIA_SEC_S_1-10.35.45.154
+  name: VBN_PHC_ELEKHIA_SEC_S_1-10.35.45.154
+  schedule: '@every 60s'
+  hosts: [10.35.45.154]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_SWIFT_PRI_S_1-10.35.45.210
+  name: VBN_LAGOS_SWIFT_PRI_S_1-10.35.45.210
+  schedule: '@every 60s'
+  hosts: [10.35.45.210]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_SWIFT_PRI_S_2-10.35.45.211
+  name: VBN_LAGOS_SWIFT_PRI_S_2-10.35.45.211
+  schedule: '@every 60s'
+  hosts: [10.35.45.211]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IKOYI-OFFICE_PRI_S_1-10.35.47.154
+  name: VBN_LAGOS_IKOYI-OFFICE_PRI_S_1-10.35.47.154
+  schedule: '@every 60s'
+  hosts: [10.35.47.154]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_GARKI_SEC_S_1-10.35.49.137
+  name: VBN_ABUJA_GARKI_SEC_S_1-10.35.49.137
+  schedule: '@every 60s'
+  hosts: [10.35.49.137]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_GARKI_SEC_S_2-10.35.49.138
+  name: VBN_ABUJA_GARKI_SEC_S_2-10.35.49.138
+  schedule: '@every 60s'
+  hosts: [10.35.49.138]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_AIRPORT-CHIKA_SEC_S_1-10.35.49.132
+  name: VBN_ABUJA_AIRPORT-CHIKA_SEC_S_1-10.35.49.132
+  schedule: '@every 60s'
+  hosts: [10.35.49.132]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_CHRIST-APOSTOLIC-KARU_SEC_S_1-10.35.49.133
+  name: VBN_ABUJA_CHRIST-APOSTOLIC-KARU_SEC_S_1-10.35.49.133
+  schedule: '@every 60s'
+  hosts: [10.35.49.133]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_9MOBILE_ZFS_S_1_EE1-10.35.49.98
+  name: VBN_ABUJA_9MOBILE_ZFS_S_1_EE1-10.35.49.98
+  schedule: '@every 60s'
+  hosts: [10.35.49.98]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_MOWE_KKONTECH_ZFS_S_1_NN1-10.35.50.162
+  name: VBN_MOWE_KKONTECH_ZFS_S_1_NN1-10.35.50.162
+  schedule: '@every 60s'
+  hosts: [10.35.50.162]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_MOWE_KKONTECH_ZFS_S_1_EE1-10.35.50.164
+  name: VBN_MOWE_KKONTECH_ZFS_S_1_EE1-10.35.50.164
+  schedule: '@every 60s'
+  hosts: [10.35.50.164]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_MTN-EBOCHA_ZFS_S_1_SS1-10.35.59.2
+  name: VBN_PHC_MTN-EBOCHA_ZFS_S_1_SS1-10.35.59.2
+  schedule: '@every 60s'
+  hosts: [10.35.59.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_PHC_DIOBU-POLICE-STATION_SEC_S_1-10.35.59.58
+  name: VBN_PHC_DIOBU-POLICE-STATION_SEC_S_1-10.35.59.58
+  schedule: '@every 60s'
+  hosts: [10.35.59.58]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_WARRI_REFINERY-ROAD_SEC_S_1-10.35.60.98
+  name: VBN_WARRI_REFINERY-ROAD_SEC_S_1-10.35.60.98
+  schedule: '@every 60s'
+  hosts: [10.35.60.98]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_APAPA-PORT_SEC_S_1-10.35.70.58
+  name: VBN_LAGOS_APAPA-PORT_SEC_S_1-10.35.70.58
+  schedule: '@every 60s'
+  hosts: [10.35.70.58]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_EBUTE-META_SEC_S_1-10.35.70.50
+  name: VBN_LAGOS_EBUTE-META_SEC_S_1-10.35.70.50
+  schedule: '@every 60s'
+  hosts: [10.35.70.50]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_KADO_SEC_S_1-10.35.70.42
+  name: VBN_ABUJA_KADO_SEC_S_1-10.35.70.42
+  schedule: '@every 60s'
+  hosts: [10.35.70.42]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_KUBWA_SEC_S_1-10.35.70.43
+  name: VBN_ABUJA_KUBWA_SEC_S_1-10.35.70.43
+  schedule: '@every 60s'
+  hosts: [10.35.70.43]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_ZFS_ECNX_SOUTH_1-10.35.72.34
+  name: VBN_KANO_ZFS_ECNX_SOUTH_1-10.35.72.34
+  schedule: '@every 60s'
+  hosts: [10.35.72.34]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ONITSHA_AWKA-ROAD_SEC_S_1-10.35.23.186
+  name: VBN_ONITSHA_AWKA-ROAD_SEC_S_1-10.35.23.186
+  schedule: '@every 60s'
+  hosts: [10.35.23.186]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_ABIJO_SEC_S_1-10.35.70.110
+  name: VBN_LAGOS_ABIJO_SEC_S_1-10.35.70.110
+  schedule: '@every 60s'
+  hosts: [10.35.70.110]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_ASOKORO-NEW_SEC_S_1-10.35.70.163
+  name: VBN_ABUJA_ASOKORO-NEW_SEC_S_1-10.35.70.163
+  schedule: '@every 60s'
+  hosts: [10.35.70.163]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_POLICEFORCE-SHEHU-SHAGARI_SEC_S_1-10.35.70.178
+  name: VBN_ABUJA_POLICEFORCE-SHEHU-SHAGARI_SEC_S_1-10.35.70.178
+  schedule: '@every 60s'
+  hosts: [10.35.70.178]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_KATAMPE_SEC_S_1-10.35.70.196
+  name: VBN_ABUJA_KATAMPE_SEC_S_1-10.35.70.196
+  schedule: '@every 60s'
+  hosts: [10.35.70.196]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_ODO-ONA_ZFS_AP03_SS1_V-10.35.12.70
+  name: VBN_IBADAN_ODO-ONA_ZFS_AP03_SS1_V-10.35.12.70
+  schedule: '@every 60s'
+  hosts: [10.35.12.70]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_IBADAN_IWO_RC_SEC_1-10.35.12.71
+  name: VBN_IBADAN_IWO_RC_SEC_1-10.35.12.71
+  schedule: '@every 60s'
+  hosts: [10.35.12.71]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_HASSA-MUSA-ASOKORO_SEC_S_1-10.35.70.164
+  name: VBN_ABUJA_HASSA-MUSA-ASOKORO_SEC_S_1-10.35.70.164
+  schedule: '@every 60s'
+  hosts: [10.35.70.164]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_LAGOS_IKOTA-SHOPPING_COMPLEX-10.35.40.196
+  name: VBN_LAGOS_IKOTA-SHOPPING_COMPLEX-10.35.40.196
+  schedule: '@every 60s'
+  hosts: [10.35.40.196]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_ABUJA_9MOBILE_ZFS_S_1_EE1-10.35.49.98
+  name: VBN_ABUJA_9MOBILE_ZFS_S_1_EE1-10.35.49.98
+  schedule: '@every 60s'
+  hosts: [10.35.49.98]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_OGUN_SHAGAMU_ZFS_SEC_0_H-10.35.70.218
+  name: INQ_OGUN_SHAGAMU_ZFS_SEC_0_H-10.35.70.218
+  schedule: '@every 60s'
+  hosts: [10.35.70.218]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: VBN_KANO_KAWON-QUARTERS_SEC_S_1-10.35.12.136
+  name: VBN_KANO_KAWON-QUARTERS_SEC_S_1-10.35.12.136
+  schedule: '@every 60s'
+  hosts: [10.35.12.136]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_LAGOS_MEDALLION_SEC_0-10.35.70.226
+  name: INQ_LAGOS_MEDALLION_SEC_0-10.35.70.226
+  schedule: '@every 60s'
+  hosts: [10.35.70.226]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_IWO-ROAD_NORTH_SEC-10.100.28.2
+  name: INQ_PROXIM_IWO-ROAD_NORTH_SEC-10.100.28.2
+  schedule: '@every 60s'
+  hosts: [10.100.28.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_IWO-ROAD_EAST_SEC-10.100.28.66
+  name: INQ_PROXIM_IWO-ROAD_EAST_SEC-10.100.28.66
+  schedule: '@every 60s'
+  hosts: [10.100.28.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_IWO-ROAD_SOUTH_SEC-10.100.28.130
+  name: INQ_PROXIM_IWO-ROAD_SOUTH_SEC-10.100.28.130
+  schedule: '@every 60s'
+  hosts: [10.100.28.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_IWO-ROAD_WEST_SEC-10.100.28.194
+  name: INQ_PROXIM_IWO-ROAD_WEST_SEC-10.100.28.194
+  schedule: '@every 60s'
+  hosts: [10.100.28.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_DUGBE-ROAD_NORTH_SEC-10.100.29.2
+  name: INQ_PROXIM_DUGBE-ROAD_NORTH_SEC-10.100.29.2
+  schedule: '@every 60s'
+  hosts: [10.100.29.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_DUGBE-ROAD_EAST_SEC-10.100.29.66
+  name: INQ_PROXIM_DUGBE-ROAD_EAST_SEC-10.100.29.66
+  schedule: '@every 60s'
+  hosts: [10.100.29.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_DUGBE-ROAD_SOUTH_SEC-10.100.29.130
+  name: INQ_PROXIM_DUGBE-ROAD_SOUTH_SEC-10.100.29.130
+  schedule: '@every 60s'
+  hosts: [10.100.29.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_DUGBE-ROAD_WEST_SEC-10.100.29.194
+  name: INQ_PROXIM_DUGBE-ROAD_WEST_SEC-10.100.29.194
+  schedule: '@every 60s'
+  hosts: [10.100.29.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_ODO-ONA_NORTH_SEC-10.100.27.2
+  name: INQ_PROXIM_ODO-ONA_NORTH_SEC-10.100.27.2
+  schedule: '@every 60s'
+  hosts: [10.100.27.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_ODO-ONA_EAST_SEC-10.100.27.66
+  name: INQ_PROXIM_ODO-ONA_EAST_SEC-10.100.27.66
+  schedule: '@every 60s'
+  hosts: [10.100.27.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_ODO-ONA_SOUTH_SEC-10.100.27.130
+  name: INQ_PROXIM_ODO-ONA_SOUTH_SEC-10.100.27.130
+  schedule: '@every 60s'
+  hosts: [10.100.27.130]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_ODO-ONA_WEST_SEC-10.100.27.194
+  name: INQ_PROXIM_ODO-ONA_WEST_SEC-10.100.27.194
+  schedule: '@every 60s'
+  hosts: [10.100.27.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_EWEKORO_SEC_1-10.100.25.2
+  name: INQ_PROXIM_EWEKORO_SEC_1-10.100.25.2
+  schedule: '@every 60s'
+  hosts: [10.100.25.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_EWEKORO_NORTH_SEC-10.100.25.66
+  name: INQ_PROXIM_EWEKORO_NORTH_SEC-10.100.25.66
+  schedule: '@every 60s'
+  hosts: [10.100.25.66]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_LEKKI_FREE-TRADE-ZONE_REPEATER_SEC_1-10.100.14.2
+  name: INQ_LEKKI_FREE-TRADE-ZONE_REPEATER_SEC_1-10.100.14.2
+  schedule: '@every 60s'
+  hosts: [10.100.14.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_LEKKI_FREE-TRADE-ZONE_SEC_1-10.100.15.2
+  name: INQ_LEKKI_FREE-TRADE-ZONE_SEC_1-10.100.15.2
+  schedule: '@every 60s'
+  hosts: [10.100.15.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_ZENON_EAST_SEC-10.100.6.2
+  name: INQ_PROXIM_ZENON_EAST_SEC-10.100.6.2
+  schedule: '@every 60s'
+  hosts: [10.100.6.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_SHAGAMU_SOUTH_EAST-10.100.16.2
+  name: INQ_PROXIM_SHAGAMU_SOUTH_EAST-10.100.16.2
+  schedule: '@every 60s'
+  hosts: [10.100.16.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_PROXIM_SHAGAMU_REPEATER_SEC_1-10.100.19.2
+  name: INQ_PROXIM_SHAGAMU_REPEATER_SEC_1-10.100.19.2
+  schedule: '@every 60s'
+  hosts: [10.100.19.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INFINITI-HUB-SWITCH-_1-172.17.3.251
+  name: INFINITI-HUB-SWITCH-_1-172.17.3.251
+  schedule: '@every 60s'
+  hosts: [172.17.3.251]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: UPSTREAM-HUB-SWITCH-172.17.7.246
+  name: UPSTREAM-HUB-SWITCH-172.17.7.246
+  schedule: '@every 60s'
+  hosts: [172.17.7.246]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: KKONTECH-ZFS-POWER-BANK-10.35.59.11
+  name: KKONTECH-ZFS-POWER-BANK-10.35.59.11
+  schedule: '@every 60s'
+  hosts: [10.35.59.11]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: 1-GB-RADIO-RC-BKS-10.35.38.162
+  name: 1-GB-RADIO-RC-BKS-10.35.38.162
+  schedule: '@every 60s'
+  hosts: [10.35.38.162]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: IKEJA-VSAT-HUB-172.17.7.3
+  name: IKEJA-VSAT-HUB-172.17.7.3
+  schedule: '@every 60s'
+  hosts: [172.17.7.3]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_IKOTUN-IDIMU_PWR_SW-10.35.36.173
+  name: INQ_IKOTUN-IDIMU_PWR_SW-10.35.36.173
+  schedule: '@every 60s'
+  hosts: [10.35.36.173]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_OJO-PWR_SW-10.35.36.38
+  name: INQ_OJO-PWR_SW-10.35.36.38
+  schedule: '@every 60s'
+  hosts: [10.35.36.38]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_OJO_REPEATER_PWR_SW-10.35.91.50
+  name: INQ_OJO_REPEATER_PWR_SW-10.35.91.50
+  schedule: '@every 60s'
+  hosts: [10.35.91.50]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_AGBARA_PWR_SW-10.35.45.227
+  name: INQ_AGBARA_PWR_SW-10.35.45.227
+  schedule: '@every 60s'
+  hosts: [10.35.45.227]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_DUGBE_PWR_SW-10.35.14.162
+  name: INQ_DUGBE_PWR_SW-10.35.14.162
+  schedule: '@every 60s'
+  hosts: [10.35.14.162]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_APAPA-PORT_PWR_SW-10.35.36.118
+  name: INQ_APAPA-PORT_PWR_SW-10.35.36.118
+  schedule: '@every 60s'
+  hosts: [10.35.36.118]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_BKSHOP_PWR_SW-10.35.16.14
+  name: INQ_BKSHOP_PWR_SW-10.35.16.14
+  schedule: '@every 60s'
+  hosts: [10.35.16.14]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_ZENON_PWR_SW-38.38.38.2
+  name: INQ_ZENON_PWR_SW-38.38.38.2
+  schedule: '@every 60s'
+  hosts: [38.38.38.2]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_GWARIMPA_PWR_SW-10.35.14.195
+  name: INQ_GWARIMPA_PWR_SW-10.35.14.195
+  schedule: '@every 60s'
+  hosts: [10.35.14.195]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_GERRARD_PWR_SW-10.35.16.148
+  name: INQ_GERRARD_PWR_SW-10.35.16.148
+  schedule: '@every 60s'
+  hosts: [10.35.16.148]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_APAPA-OLODI_PWR_SW-10.35.40.214
+  name: INQ_APAPA-OLODI_PWR_SW-10.35.40.214
+  schedule: '@every 60s'
+  hosts: [10.35.40.214]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_ODO-ONA_PWR_SW-10.35.14.163
+  name: INQ_ODO-ONA_PWR_SW-10.35.14.163
+  schedule: '@every 60s'
+  hosts: [10.35.14.163]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_AGEGE_PWR_SW-10.35.21.74
+  name: INQ_AGEGE_PWR_SW-10.35.21.74
+  schedule: '@every 60s'
+  hosts: [10.35.21.74]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_KANO_POP_PWR_SW-10.35.14.196
+  name: INQ_KANO_POP_PWR_SW-10.35.14.196
+  schedule: '@every 60s'
+  hosts: [10.35.14.196]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_GARKI_PWR-SW-10.35.14.194
+  name: INQ_GARKI_PWR-SW-10.35.14.194
+  schedule: '@every 60s'
+  hosts: [10.35.14.194]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_OSOGBO_PWR_-SW-10.35.91.58
+  name: INQ_OSOGBO_PWR_-SW-10.35.91.58
+  schedule: '@every 60s'
+  hosts: [10.35.91.58]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_ABEOKUTA_PWR_SW-10.35.19.220
+  name: INQ_ABEOKUTA_PWR_SW-10.35.19.220
+  schedule: '@every 60s'
+  hosts: [10.35.19.220]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_IGBOEFON_PWR_SW-10.38.98.84
+  name: INQ_IGBOEFON_PWR_SW-10.38.98.84
+  schedule: '@every 60s'
+  hosts: [10.38.98.84]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_IWEGIE_PWR_SW-10.35.19.102
+  name: INQ_IWEGIE_PWR_SW-10.35.19.102
+  schedule: '@every 60s'
+  hosts: [10.35.19.102]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_ELEKAHIA_PWR_SW-10.35.59.122
+  name: INQ_ELEKAHIA_PWR_SW-10.35.59.122
+  schedule: '@every 60s'
+  hosts: [10.35.59.122]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_IWO-ROAD_PWR_SW-10.35.14.164
+  name: INQ_IWO-ROAD_PWR_SW-10.35.14.164
+  schedule: '@every 60s'
+  hosts: [10.35.14.164]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
+- type: icmp
+  id: INQ_DIOBU_PWR_SW-10.35.59.202
+  name: INQ_DIOBU_PWR_SW-10.35.59.202
+  schedule: '@every 60s'
+  hosts: [10.35.59.202]
+  timeout: 10s
+  wait: 1s
+  tags: [BTS]
