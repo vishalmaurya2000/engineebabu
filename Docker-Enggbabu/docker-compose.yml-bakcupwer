@@ -1,0 +1,38 @@
+version: '3'
+services:
+  proxy_server:
+    image: nginx:latest
+    container_name: proxy_server
+    restart: always
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/frontend.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/frontend.conf:/etc/nginx/conf.d/frontend.conf
+      - ./inq-naf-frontend:/var/www/inq-naf-frontend:rw
+      - ./socket:/socket
+    ports:
+      - "80:80"
+
+  app:
+    container_name: bpms
+    build: ./
+    volumes: 
+      - "/home/ubuntu/inq_/public/:/bpms/public/"    
+    ports:
+      - 3000:3000
+      - 8081:8081
+    depends_on:
+      - keycloak
+      - mongo
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/frontend-dockerfile
+    image: frontend:latest
+    container_name: frontend
+    links:
+      - proxy_server:papperless.inq.local
+    volumes:
+      - ./inq-naf-frontend:/var/www/frontend_web:rw
+    tty: true

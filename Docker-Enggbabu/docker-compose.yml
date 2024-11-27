@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+	keepalived1:
+	  image: neoassist/docker-keepalived:latest
+	  container_name: keepalived1
+	  volumes:
+	    - "./keepalived.conf:/etc/keepalived/keepalived.conf"
+	  environment:
+	    - VIRTUAL_IP=192.168.99.120
+	    - VIRTUAL_MASK=24
+	    - VRID=1
+	    - CHECK_IP=any
+	    - CHECK_PORT=80
+	    - INTERFACE=eth0
+	  entrypoint: sh -c 'sleep 4;/usr/bin/keepalived.sh'
+	  network_mode: "host"
+	  cap_drop:
+	    - NET_ADMIN
+	  privileged: true
+
+	haproxy1:
+	  image: haproxy:latest
+	  container_name: haproxy1
+	  ports:
+	    - 7054:7054
+	  volumes:
+	    - "./haproxy1.cfg:/usr/local/etc/haproxy/haproxy.cfg"
+	  environment:
+	    - EXPOSE=7054
+	  links:
+	    - fabric-ca-server1:fabric-ca-server1

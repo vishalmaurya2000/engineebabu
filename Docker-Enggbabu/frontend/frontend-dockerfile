@@ -1,0 +1,22 @@
+#getting base image ubuntu
+
+FROM ubuntu:18.04
+
+MAINTAINER DevOps <devops@kartrocket.com>
+
+RUN apt-get update
+
+RUN apt-get install curl sudo git vim -y
+
+RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+
+RUN apt-get install -y nodejs
+
+
+RUN mkdir -p /var/www/
+
+
+#RUN npm install -g bower
+#RUN npm install -g gulp
+
+WORKDIR /var/www/inq-naf-frontend
